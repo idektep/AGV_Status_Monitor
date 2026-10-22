@@ -157,12 +157,15 @@ setInterval(function(){
 
       if(distance > 50)
       {
+          // ข้อความสถานะ SAFE
           document.getElementById("statusCard").innerHTML =
           "_________";
 
+          // สีพื้นหลังสถานะ SAFE
           document.getElementById("statusCard").style.background =
           "_________";
 
+          // ข้อความอธิบายสถานะ SAFE
           document.getElementById("statusText").innerHTML =
           "_________";
 
